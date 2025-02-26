@@ -17,10 +17,12 @@ number_of_paintings = len(paintings)
 
 # generate audio tour numbers
 audio_tour_numbers = []
-for num in range(7):
+for num in range(number_of_paintings):
   audio_tour_numbers.append(num + 1)
 
+# output
+print('Audio Tour Numbers:')
 print(audio_tour_numbers)
 
-# output
+print('Painting Titles and Dates:')
 print(paintings)
