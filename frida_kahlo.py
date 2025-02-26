@@ -1,6 +1,6 @@
 # Frida Kahlo
 
-# raw data
+# initial data
 paintings = ['The Two Fridas', 'My Dress Hangs Here', 'Tree of Hope', 'Self Portrait With Monkeys']
 dates = [1939, 1933, 1946, 1940]
 
@@ -26,11 +26,5 @@ for num in range(number_of_paintings):
 master_list = list(zip(audio_tour_numbers, paintings, dates))
 
 # output
-print('Audio Tour Numbers:')
-print(audio_tour_numbers)
-
-print('Painting Titles:')
-print(paintings)
-
-print('Master List:')
+print('Featured Paintings by Frida Kahlo:')
 print(master_list)
